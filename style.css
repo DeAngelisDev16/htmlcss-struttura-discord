@@ -15,7 +15,7 @@
 
 #site-nav{
     background-color: orange;
-    width: 80%;
+    width: 67%;
     height: 80%;
 }
 
@@ -54,6 +54,18 @@
     width: 100%;
 }
 
+.col-1{
+    width: calc( (100% / 12) * 1);
+    background-color: rgb(87, 171, 199);
+    height: 90%;
+}
+
+.col-2{
+    width: calc( (100% / 12) * 2);
+    background-color: rgb(241, 122, 213);
+    height: 90%;
+}
+
 
 .col-5{
     width: calc( (100% / 12) * 5);
@@ -80,6 +92,23 @@
     width: 67%;
     height: 80%;
 }
+
+#site-footer{
+    background-color: black;
+    height: 600px;
+    display: flex;
+}
+
+#low-footer{
+    background-color: black;
+    height: 50px;
+    
+    
+}
+    
+        
+
+
 
 
 
