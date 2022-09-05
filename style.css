@@ -29,8 +29,36 @@
 
 #container-main-section{
     background-color: rgb(237, 83, 201);
-    width: 50%;
+    width: 60%;
     height: 80%;
 
 }
+
+.section-description{
+    background-color: green;
+    height: 600px;
+    display: flex;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.col-6{
+    width: calc( (100% / 12) * 6);
+    background-color: rgb(32, 136, 239);
+    height: 80%;
+}
+
+.col-4{
+    width: calc( (100% / 12) * 4);
+    background-color: pink;
+    height: 80%;
+}
+
+
 
