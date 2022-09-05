@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.container-nav{
+    width: 80%;
+    max-width: 1000px;
+    height: 80%;
+    margin: auto;
+    background-color: orange;
+    border: 2px solid;
+}
+    
+    
+    
+
+.row{
+    display: flex;
+    
+}
+
+header{
+    background-color: aquamarine;
+    height: 50px;
+    display: flex;
+}
+
+.col-10{
+    width: calc( (100% / 12) * 10 );
+
+}
+
+.col-6{
+    width: calc( (100% / 12) * 6 );
+}
