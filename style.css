@@ -67,5 +67,19 @@
     height: 80%;
 }
 
+#main-size-section{
+    background-color: lightgray;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#green-container{
+    background-color: green;
+    width: 67%;
+    height: 80%;
+}
+
 
 
