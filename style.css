@@ -43,9 +43,9 @@ header{
 
 #container-main-section{
     background-color: pink;
-    width: 80%;
+    width: 50%;
     max-width: 1000px;
-    height: 80%;
+    height: 50%;
     margin: auto;
     border: 2px solid;
     
