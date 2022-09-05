@@ -35,10 +35,16 @@
 }
 
 .section-description{
-    background-color: green;
+    background-color: white;
     height: 600px;
     display: flex;
 
+}
+
+#section-description-backgrey{
+    background-color: lightgray;
+    height: 600px;
+    display: flex;
 }
 
 .row{
@@ -48,14 +54,15 @@
     width: 100%;
 }
 
-.col-6{
-    width: calc( (100% / 12) * 6);
+
+.col-5{
+    width: calc( (100% / 12) * 5);
     background-color: rgb(32, 136, 239);
     height: 80%;
 }
 
-.col-4{
-    width: calc( (100% / 12) * 4);
+.col-3{
+    width: calc( (100% / 12) * 3);
     background-color: pink;
     height: 80%;
 }
