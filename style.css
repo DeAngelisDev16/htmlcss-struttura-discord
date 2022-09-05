@@ -5,6 +5,13 @@
    
 }
 
+.container{
+    background-color: red;
+    width: 70%;
+    height: 80%;
+    
+}
+
 #site-header{
     height: 50px;
     background-color: aquamarine;
@@ -100,7 +107,7 @@
 }
 
 #low-footer{
-    background-color: black;
+    background-color: orange;
     height: 50px;
     
     
